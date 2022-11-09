@@ -1,0 +1,976 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=Mochiy+Pop+P+One&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Caveat", cursive;
+  font-family: "Mochiy Pop P One", sans-serif;
+  scroll-behavior: smooth;
+}
+
+section {
+  padding: 4rem 0 3rem;
+}
+
+.container {
+  width: 100%;
+  margin: auto;
+  overflow: hidden;
+}
+
+/*Header Design*/
+
+nav {
+  background-image: url("img/wheat-header.jpg");
+  background-position: 50% 50%;
+  display: flex;
+  justify-content:space-evenly;
+  align-items: center;
+}
+
+
+nav .mainMenu{
+  display: flex;
+  list-style: none;
+  
+}
+.logo{
+  text-shadow: 1px 1px 1px black;
+}
+nav .mainMenu li a{
+  display:inline-block;
+  padding: 15px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #ebe5e4;
+  text-shadow: 1px 1px 1px black;
+  font-size: 1rem;
+}
+
+nav .mainMenu li a:hover{
+  background: #ffaf3f;
+  border-radius: 5px;
+}
+
+nav .openMenu {
+  font-size: 2rem;
+  margin: 20px;
+  display:none;
+  cursor: pointer;
+  color: #ebe5e4;
+}
+
+nav .mainMenu .closeMenu, .icons i {
+  font-size: 2rem;
+  display: none;
+  cursor: pointer;
+  color: #ebe5e4;
+}
+
+.est {
+  font-size: 15px;
+  border-bottom: 1px solid #ebe5e4;
+  text-shadow: 1px 1px 1px #202020;
+}
+
+.fa-facebook:hover {
+  color: rgb(96, 96, 255);
+}
+.fa-instagram:hover {
+  color: rgb(255, 0, 200);
+}
+.fa-twitter:hover {
+  color: rgb(86, 154, 243);
+}
+
+/*Main Body Design*/
+.main-bread-img {
+  width: 100%;
+  height: 60vh;
+  background: url("/img/main-bread.jpg");
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-info {
+  height: 450px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#main{
+  text-align: center;
+}
+
+#main h1 {
+  font-size: 4rem;
+  color: #ebe5e4;
+  text-shadow: black 1px 0 10px;
+}
+
+#main h3 {
+  font-size: 2rem;
+  color: #ebe5e4;
+  text-shadow: black 1px 0 10px
+}
+
+/* About Design */
+
+#about {
+  display: flex;
+  justify-content:center;
+}
+
+#about img {
+  margin-top:5vh;
+  width: 30vw;
+  height: 40vh;
+  
+}
+
+.about-container {
+  width: 50vw;
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.about-info {
+  height: 30vh;
+  width: 25vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  text-align: center;
+  margin: 5px;
+  line-height: 30px;
+  text-indent: 30px;
+}
+.about-info h2 {
+  font-size: 30px;
+  color: #d07b39;
+  text-shadow: 1px 1px 2px black;
+}
+
+.about-info p{
+  margin-top: 1rem;
+  color: #d07b39;
+  text-shadow: 1px 1px 2px black;
+}
+
+.about-info button {
+  width: 250px;
+  height: 35px;
+  background-color: #d07b39;
+  font-size: 18px;
+  border: none;
+}
+
+.about-info button:hover {
+  cursor: pointer;
+  background-color: #cc9b76;
+}
+
+.about-info button a{
+  text-decoration: none;
+  color: #ebe5e4;
+}
+
+
+/* About2 Design */
+#about2 {
+  display: flex;
+  padding:0;
+}
+.about2-container {
+  width: 50vw;
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  background-color: #ebe5e4;
+}
+
+.about2-info {
+  height: 35vh;
+  width: 50vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  margin: 5px;
+  line-height: 30px;
+  text-indent: 30px;
+}
+
+.about2-info h2 {
+  font-size: 30px;
+  color: #d07b39;
+  text-shadow: 1px 1px 2px black;
+}
+
+.about2-info p{
+  color: #d07b39;
+  text-shadow: 1px 1px 2px black
+}
+
+.about2-info button {
+  width: 250px;
+  height: 35px;
+  background-color: #d07b39;
+  font-size: 18px;
+  color: #ebe5e4;
+  border: none;
+}
+
+.about2-info button:hover {
+  cursor: pointer;
+  background-color: #cc9b76;
+}
+
+.about2-info button a{
+  text-decoration: none;
+  color: #ebe5e4;
+}
+
+
+.img-container {
+  width: 50vw;
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  background-color: #ebe5e4;
+}
+
+.img-container img {
+  height: 35vh;
+  width: 50vw;
+}
+
+/*Newsletter Design */
+#newsletter {
+  width: 100%;
+  height: 30vh;
+  background-image: url(/img/newsletter-bread.jpg);
+  background-size: cover;
+  background-position: center top;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.news-container {
+  width: 100%;
+  text-align: center;
+  line-height: 7vh;
+  color: #ebe5e4;
+  font-size: 20px;
+}
+
+.news-container h1 {
+  font-size: 40px;
+}
+
+.e-bar {
+  width: 15vw;
+  height: 5vh;
+  font-size: .9rem;
+  border: none;
+  margin-right: 5px;
+  text-align: center;
+}
+
+.e-btn {
+  width: 25vh;
+  height: 5vh;
+  background-color: #d07b39;
+  font-size: 18px;
+  color: #ebe5e4;
+  border: none;
+}
+
+.e-btn:hover {
+  cursor: pointer;
+  background-color: #cc9b76;
+}
+
+/*Baker Design */
+
+#baker {
+  height: 65vh;
+  width: 100%;
+  background-color: #ebe5e4;
+  
+}
+
+.baker-container {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  text-indent: 30px;
+  line-height: 30px;
+}
+
+.baker-container img {
+  width: 30vw;
+  min-width: 450px; 
+  height: 50vh;
+  margin: 2vw;
+
+}
+
+.about-baker {
+  width: 35vw;
+  font-size: 14px;
+  color: #d07b39;
+  /* text-shadow: 0px 0px 1px black */
+}
+
+/*Products Design */
+#products {
+  width: 100%;
+  background-color: #cc9b76;
+  display: flex;
+  justify-content: center;
+  color: #ebe5e4;
+}
+
+.products-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.products-header {
+  height: 20vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.products-header h1 {
+  font-size: 40px;
+}
+
+.products-gallery {  
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-gap: 15px;
+}
+.product {
+  text-align: center;
+}
+
+.product img {
+  height: 200px;
+  width: 250px;
+  
+}
+
+.order-btn{
+  margin: 30px;
+  width:300px;
+  height: 30px;
+  font-size: 18px;
+  vertical-align: middle;
+  border: none;
+}
+
+
+.order-btn:hover{
+  cursor: pointer;
+  background-color: #a3a09f;
+}
+
+.order-btn a{
+  text-decoration: none;
+  color: black;
+
+}
+
+/*Contact Design */
+
+#contact{
+  background-color: #ebe5e4;
+}
+
+.contact-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content:center;
+  height: 20vh;
+}
+
+.contact-header h1{
+  font-size: 40px;
+  margin-bottom: 20px;
+  color: #d07b39;
+  text-shadow: 1px 1px 2px black;
+}
+
+.contact-header h3{
+  text-align: center;
+  color: #d07b39;
+  text-shadow: 1px 1px 2px black;
+}
+
+.contact-info {
+  display: flex;
+  justify-content:space-between;
+  align-items:center;
+  width: 35vw;
+  min-width: 625px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.contact-box{
+  height: 25vh;
+  width:400px;
+  display: flex;
+  flex-direction: column;
+  justify-content:space-evenly;
+  align-items: center;
+}
+
+.info-box{
+  display: flex;
+  justify-content:space-between;
+}
+
+.info-box h5{
+  color: #d07b39;
+}
+
+.info-box img{
+  margin-right: 15px;
+}
+
+#map{
+  width:400px;
+  height:300px;
+  border: 1px black solid;
+}
+
+/*Footer Design */
+
+#footer {
+  background-image: url("img/wheat-header.jpg");
+  background-position: bottom;
+  width: 100%;
+  height: 15vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content:space-evenly;
+  width: 40vw;
+  margin:3vh;
+}
+
+.link-list{
+  width:600px;
+  display: flex;
+  justify-content:space-evenly;
+  margin: 10px;
+}
+
+.link-list ul{
+  display: flex;
+  list-style: none;
+  align-items: center;
+}
+
+.link-list li{
+  font-size:20px;
+  margin-right:20px ;
+
+  
+}
+
+.link-list li a{
+  color: #ebe5e4;
+  text-decoration: none;
+  text-shadow: 1px 1px 1px #202020;
+}
+
+.link-list li a:hover{
+  background: #ffaf3f;
+  border-radius: 5px;
+  padding: 3px;
+}
+
+.icon-list{
+display: flex;
+justify-content:space-between;
+width: 450px;
+}
+
+.icon-list a img{
+  height: 40px;
+  margin: 0px 15px;
+}
+
+.copyright{
+  color: #ebe5e4;
+  text-shadow: 1px 1px 1px #202020;
+  letter-spacing: 3px;
+  width: 600px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/*Purchase Design */
+
+/*Purchase Header*/
+
+.p-header{
+  position:fixed;
+  top:0;
+  left:0;
+  width:100%;
+  background-image: url("img/wheat-header.jpg");
+  background-position: bottom;
+  z-index: 1;
+}
+
+.nav-container{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  padding: 20px 0;
+  max-width: 1068px;
+  margin: auto;
+  width: 100%;
+}
+
+.logo{
+  text-decoration: none;
+  color: #ebe5e4;
+  text-shadow: 1px 1px 1px #202020;
+  font-size: 58px;
+  margin-left: 10px;
+}
+
+.cart-icon{
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.section-title{
+  font-size: 1.8rem;
+  font-weight:600;
+  text-align: center;
+  margin-top:3rem;
+  margin-bottom:3rem;
+  border-bottom: 1px solid black;
+}
+
+/*Cart Content*/
+.cart{
+  position:fixed;
+  top:0;
+  right:-100%;
+  width:325px;
+  min-height: 98vh;
+  max-height:95vh;
+  padding:20px;
+  background-color: rgba(245, 231, 152, 0.993);
+  box-shadow: -2px 0 4px hsl(0 4% 15% / 10%);
+  transition: 0.3s;
+  overflow-y: scroll;
+}
+/* rgba(255, 242, 242, 0.993) */
+
+.cart.active{
+  right:0;
+}
+
+
+.cart-title{
+  text-align: center;
+  border-bottom: 1px solid black;
+}
+
+.cart-box{
+  display:grid;
+  grid-template-columns: 32% 50% 18%;
+  align-items:center;
+  gap: 1rem;
+  margin-top:1rem;
+}
+
+.cart-img{
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+  padding:10px;
+}
+
+.detail-box{
+  display:grid;
+  row-gap: .5rem ;
+}
+
+.cart-product-title{
+  font-size: 1.3rem;
+}
+
+.cart-price{
+  font-weight:600;
+}
+
+.cart-quantity{
+  border: 1px solid black;
+  width: 35px;
+  text-align: center;
+}
+
+.cart-remove{
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.total{
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 1.5rem;
+  border-top: 1px solid black;
+}
+
+.total-title{
+  font-size: 1rem;
+  font-weight:600;
+}
+
+.total-price{
+  margin-left: .5rem;
+}
+
+.btn-buy{
+  display:flex;
+  margin: 1rem auto ;
+  padding: 12px 16px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.btn-buy:hover{
+  background-color:rgb(63, 210, 236);
+}
+
+.close-cart{
+  position:absolute;
+  top:1rem;
+  right: .8rem;
+  height: 20px;
+  width:20px;
+  cursor: pointer;
+}
+/*Shop Content*/
+
+.shop-container{
+  display: flex;
+  flex-direction:column;
+  align-items:center;
+  margin-top: 50px;
+}
+.shop-content{
+  width: 50%;
+  display:grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap:1.5rem;
+}
+
+.product-box{
+  position: relative;
+  text-align:center;
+}
+
+.product-img{
+  width: 100%;
+  height: auto;
+  max-width: 350px;
+}
+
+.product-name{
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-bottom:1.5rem;
+}
+
+.price{
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin-right: 1rem;
+}
+
+.product-box button{
+  cursor: pointer;
+}
+
+/*Breakpoints*/
+@media (max-width:1080px) {
+  .nav {
+    padding: 15px;
+  }
+  section{
+    padding: 3rem 0 2rem;
+  }
+  .container{
+    margin: 0 auto;
+
+  }
+  .shop{
+    margin-top: 2rem;
+  }  
+
+  nav .mainMenu{
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 10;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background:url("img/wheat-header.jpg");
+    background-size: contain;
+    display:none;
+  }
+
+  nav .mainMenu .closeMenu{
+    display:block;
+    position: absolute;
+    top:20px;
+    right: 20px;
+  }
+
+  nav .openMenu{
+    display: block;
+  }
+  nav .mainMenu li a:hover{
+    background: #ffaf3f;
+    font-size:1.6rem;
+  }
+
+  .icons i {
+    display:inline-block;
+    padding:12px;
+  }
+
+  /*Products Design */
+  .products-gallery{
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap:10px;
+  }
+
+}
+
+@media(max-width:800px){
+  /* About Design */
+  #about{
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+  }
+  
+  #about img {
+    width: 100%;
+    height:35vh;
+    margin-top: 0;
+  }
+
+  .about-container{
+    width: 100%;
+    text-align: center;
+    height:35vh;
+  }
+
+  .about-container h2{
+    margin-bottom:10px;
+  }
+
+  .about-info{
+    width: 100vw;
+    padding:2rem;
+  }
+
+  .about-info p{
+    margin-bottom: 15px;
+  }
+
+  /* About2 Design */
+  #about2 {
+    flex-direction: column-reverse;
+  }
+
+  .img-container{
+    width: 100%;
+    height:35vh;
+
+  }
+
+  .img-container img{
+    width: 100%;
+    height: 100%;
+  }
+
+  .about2-container{
+    width: 100%;
+    justify-content: center;
+    height: 40vh;
+  }
+
+  .about2-info{
+    margin: 15px;
+  }
+
+  /*Newsletter Design */
+  .news-container{
+    line-height:3vh;
+    font-size: 15px;
+    text-indent: 1.2rem;
+  }
+
+  .news-container h1{
+    font-size:30px;
+    margin-bottom: 20px;
+  }
+
+  .news-container p{
+    margin-bottom: 15px;
+  }
+
+  .newsletter-input{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 5rem;
+  }
+
+  .e-bar, .e-btn{
+    width:250px;
+    height: 35px;
+  }
+
+  .e-btn{
+  margin:10px;
+
+  }
+
+    /*Baker Design */
+  #baker {
+    padding:0;
+    
+  }
+  .baker-container{
+    flex-direction: column;
+    justify-content:flex-start;
+  }
+
+  .baker-container img{
+    width: 450px; 
+    height: 30vh;
+    margin:0;
+    
+  }
+
+  .about-baker{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    padding:10px;
+  }
+
+  .about-baker p{
+    font-size: 10.5px;
+  }
+
+
+  
+
+}
+
+@media(max-width:700px){
+  .main-bread-img{
+    background-position: center;
+  }
+
+  .contact-info{
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 575px){
+  .title {
+    display:flex;
+    flex-direction: column;
+  }
+
+  .est {
+    border-bottom:none;
+  }
+
+
+}
+
+@media (max-width: 400px) {
+  .nav{
+    padding: 11px;
+  }
+  .logo {
+    font-size: 1rem;
+  }
+  .cart{
+    width: 320px;
+  }
+
+  .icon-list {
+  width: 300px;
+  }
+
+}
+
+@media (max-width: 360px){
+  .shop {
+    margin-top: 1rem;
+  }
+  .cart {
+    width: 280px;
+  }
+
+  .icon-list {
+    width: 300px;
+    }
+  
+
+}
+
+

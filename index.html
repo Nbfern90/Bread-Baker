@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bakery</title>
+  <link rel="shortcut icon" href="/img/loaf-icon.png">
+  <link rel="stylesheet" href="style.css">
+  <link href='https://api.mapbox.com/mapbox-gl-js/v2.3.1/mapbox-gl.css' rel='stylesheet' />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css"
+    integrity="sha256-46r060N2LrChLLb5zowXQ72/iKKNiw/lAmygmHExk/o=" crossorigin="anonymous" />
+</head>
+
+<body>
+  <div class="container">
+    <!------- Header ------>
+    <nav>
+      <div class="logo">
+        <h3 class="title">Hearth <span class="est">Est. 2017</span></h3>
+      </div>
+      <div class="openMenu"><i class="fa fa-bars"></i></div>
+      <ul class="mainMenu">
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#products">Products</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="/purchase.html">Order Online</a></li>
+        <div class="closeMenu"><i class="fa fa-times"></i></div>
+        <span class="icons">
+          <i class="fab fa-facebook"></i>
+          <i class="fab fa-instagram"></i>
+          <i class="fab fa-twitter"></i>
+        </span>
+      </ul>
+    </nav>
+
+    <!------- Main ------>
+    <section id="main" class="main-bread-img">
+      <div class="main-info">
+        <h1>From Our Hearth To Your Home</h1>
+        <h3>Purposely Rustic, Pridefully Local</h3>
+      </div>
+    </section>
+    <!------- About ------>
+    <section id=about>
+      <img src="/img/about-bread.jpg" alt="bread img">
+      <div class="about-container">
+        <div class="about-info">
+          <h2>European Techniques</h2>
+          <p>We are a local, small scale artisan bakery utilizing old world techniques to produce lovingly hancrafted
+            bread.</p>
+          <button><a href="/purchase.html">Buy Here</a></button>
+
+        </div>
+      </div>
+    </section>
+    <section id="about2">
+      <div class="about2-container">
+        <div class="about2-info">
+          <h2>Local Ingredients</h2>
+          <p>We pride ourselves on sourcing all of our ingredients from within a 100 mile radius. From our organic
+            flours
+            to our harvested sea salt, we work with local farmers and purveyors to showcase the best the region has to
+            offer while strengthening our community. </p>
+          <button><a href="#products">See Our Selection</a></button>
+
+        </div>
+      </div>
+      <div class="img-container">
+        <img src="/img/handshake.jpg" alt="Handshake">
+      </div>
+    </section>
+    <!------- Newsletter ------>
+    <section id="newsletter">
+      <div class="news-container">
+        <h1>JOIN OUR NEWSLETTER</h1>
+        <p>Want to see our upcoming speicals,community updates, and farmers market information? Then subscribe to our
+          weekly newsletter!</p>
+        <div class="newsletter-input">
+          <input type="email" placeholder="E-mail Address" class="e-bar">
+          <input type="button" value="SUBSCRIBE" class="e-btn"">
+        </div>
+      </div>
+    </section>
+    <!------- Baker ------>
+    <section id=" baker">
+          <div class="baker-container">
+            <img src="/img/chef-baker.jpg" alt="Brad Baker">
+            <div class="about-baker">
+              <p>Growing up baking in his Grandmother's kitchen is where Chef Brad found his love of baking bread. After
+                graduating from The Culinary Institute of America, Brad spent the next five years working around
+                Scandanavia. During his time in Sweden, Norway,and Denmark, Brad honed his craft and adopted a strong
+                appreciation for seasonal, fresh, and organic ingredients.</p>
+
+              <br>
+              <p>"During my travels through Scandanavia, I learned the importance of using what nature gives you.
+                Working
+                closely with our local farmers allows us to best showcase to our community what nature has to offer"
+                -Brad
+                Baker, Chef</p>
+            </div>
+          </div>
+    </section>
+
+    <!------- Products ------>
+
+    <section id="products">
+      <div class="products-container">
+        <div class="products-header">
+          <h1>Our Breads</h1>
+          <h3>Made with 100% Non-GMO Ingredients</h3>
+        </div>
+        <div class="products-gallery">
+          <div class="product">
+            <img src="/img/baguette.jpg" alt="Baguette">
+            <p>Traditional Baguette</p>
+          </div>
+          <div class="product">
+            <img src="/img/focaccia.jpg" alt="Focaccia">
+            <p>Tomato Focaccia</p>
+          </div>
+          <div class="product">
+            <img src="/img/whole-wheat.jpg" alt="Whole Wheat Loaf">
+            <p>Whole Wheat Loaf</p>
+          </div>
+          <div class="product">
+            <img src="/img/sourdough.jpg" alt="California Sourdough">
+            <p>California Sourdough</p>
+          </div>
+          <div class="product">
+            <img src="/img/challah.jpg" alt="Sesame Challah">
+            <p>Sesame Challah</p>
+          </div>
+          <div class="product">
+            <img src="/img/honey-oat.jpg" alt="Danish Oat Loaf">
+            <p>Danish Oat Loaf</p>
+          </div>
+          <div class="product">
+            <img src="/img/multigrain.jpg" alt="Multigrain Loaf">
+            <p>Multigrain Loaf</p>
+          </div>
+          <div class="product">
+            <img src="/img/honey-rye.jpg" alt="Honey Rye">
+            <p>Nordic Honey Rye</p>
+          </div>
+          <div class="product">
+            <img src="/img/olive-loaf.jpg" alt="Olive Loaf">
+            <p>Olive Loaf</p>
+          </div>
+          <div class="product">
+            <img src="/img/seeded-rye.jpg" alt="Seeded Rye">
+            <p>Seeded Rye</p>
+          </div>
+          <div class="product">
+            <img src="/img/brioche.jpg" alt="Brioche">
+            <p>Brioche</p>
+          </div>
+          <div class="product">
+            <img src="/img/rugbrod.jpg" alt="Rugbrød">
+            <p>Rugbrød (Danish Rye)</p>
+          </div>
+        </div>
+        <button class="order-btn"><a href="/purchase.html">Click Here to Order Online</a></button>
+
+      </div>
+    </section>
+
+    <!------- Contact ------>
+    <section id="contact">
+      <div class="contact-container">
+        <div class="contact-header">
+          <h1>Contact Us</h1>
+          <h3>Please feel free to get in touch with us via Phone, E-mail, or Social Media.</h3>
+        </div>
+        <div class="contact-info">
+          <div class="contact-box">
+            <div class="info-box">
+              <img src="/img/location.png" alt="">
+              <h5>600 E St, Eureka, CA 95501</h5>
+            </div>
+            <div class="info-box">
+              <img src="/img/hours.png" alt="">
+              <h5>Tue-Sat 7:00am - 4:00pm</h5>
+            </div>
+            <div class="info-box">
+              <img src="/img/phone.png" alt="">
+              <h5>(707) 867-5309</h5>
+            </div>
+            <div class="info-box">
+              <img src="/img/email.png" alt="">
+              <h5><a href="mailto:weheartbread@gmail.com">weheartbread@gmail.com</a></h5>
+            </div>
+          </div>
+          <div id="map">
+          </div>
+        </div>
+      </div>
+    </section>
+    <!------- Contact ------>
+
+    <section id="footer">
+      <div class="footer-container">
+        <div class="link-list">
+          <ul>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#products">Products</a></li>
+            <li><a href="/purchase.html">Order Online</a></li>
+          </ul>
+        </div>
+        <div class="icon-list">
+          <a href="#"><img src="/img/fb.png" alt=""></a>
+          <a href="#"><img src="/img/insta.png" alt=""></a>
+          <a href="#"><img src="/img/twit.png" alt=""></a>
+        </div>
+        <div class="copyright">
+          <h6>© COPYRIGHT Bakery - ALL RIGHTS RESERVED</h6>
+        </div>
+      </div>
+
+    </section>
+
+
+  </div>
+
+  <script src="/app.js"></script>
+  <script src='https://api.mapbox.com/mapbox-gl-js/v2.3.1/mapbox-gl.js'></script>
+  <script>
+    mapboxgl.accessToken = 'pk.eyJ1IjoibmJtYXA2NjYiLCJhIjoiY2t2Zm9vbXRwYnRtNTJvbnp3Y3dvM2FwZCJ9.Fcx8P9Bqj3_zqOOim8c2mQ';
+    const map = new mapboxgl.Map({
+      container: 'map',
+      style: 'mapbox://styles/mapbox/streets-v11',
+      center: [-124.1671919344157, 40.80087120289181],
+      zoom: 15
+    });
+
+    map.addControl(new mapboxgl.NavigationControl());
+  </script>
+</body>
+
+</html>
