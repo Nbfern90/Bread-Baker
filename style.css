@@ -698,6 +698,8 @@ width: 450px;
   flex-direction:column;
   align-items:center;
   margin-top: 50px;
+  width: 100%;
+  min-width: 100%;
 }
 .shop-content{
   width: 50%;
@@ -984,7 +986,6 @@ line-height: 25px;
 /*SHOP DESIGN*/
 .shop-container{
   padding: 4rem 0 3rem;
-  width: 100%;
 }
 }
 
@@ -1013,7 +1014,7 @@ line-height: 25px;
     font-size: 2rem;
   }
   .title span{
-    font-size: .8rem;
+    font-size: .7rem;
   }
   /*MAIN DESIGN*/
   .cart{
@@ -1028,6 +1029,11 @@ line-height: 25px;
 
   .contact-header h3{
     font-size: 16px;
+  }
+
+  /*PURCHASE DESIGN*/
+  .p-header span{
+    display: none;
   }
 }
 
