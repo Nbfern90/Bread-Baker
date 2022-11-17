@@ -8,14 +8,14 @@ E-commerce App showcasing a Mom N' Pop style bakery.I also used the mapbox API f
 
 ## Features
 
-*About Page
-![Bakery](/img/Bakery1.png)
-*Bread Selection
-![Bakery](/img/Bakery2.png)
-*Contact Page
-![Bakery](/img/Bakery3.png)
-*Cart
-![Bakery](/img/Bakery4.png)
+- About Page
+  ![Bakery](/img/Bakery1.png)
+- Bread Selection
+  ![Bakery](/img/Bakery2.png)
+- Contact Page
+  ![Bakery](/img/Bakery3.png)
+- Cart
+  ![Bakery](/img/Bakery4.png)
 
 ## Technologies
 
