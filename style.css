@@ -390,7 +390,7 @@ nav .mainMenu .closeMenu, .icons i {
 
 .order-btn:hover{
   cursor: pointer;
-  background-color: #a3a09f;
+  background-color: #cecbcb;
 }
 
 .order-btn a{
@@ -677,10 +677,14 @@ width: 450px;
   font-size: 1rem;
   font-weight: 600;
   cursor: pointer;
+  background-color: #007bff;
+  border: 1px solid #007bff;
+  color: #ebe5e4;
+  text-shadow: 1px 1px 1px black;
 }
 
 .btn-buy:hover{
-  background-color:rgb(63, 210, 236);
+  border:2px solid black;
 }
 
 .close-cart{
