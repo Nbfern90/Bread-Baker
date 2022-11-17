@@ -8,10 +8,10 @@ E-commerce App showcasing a Mom N' Pop style bakery.I also used the mapbox API f
 
 ## Features
 
-<img src="/img/Bakery1.png" width="300>
-<img src="/img/Bakery2.png" width="300>
-<img src="/img/Bakery3.png" width="300>
-<img src="/img/Bakery4.png" width="300>
+![Bakery](/img/Bakery1.png)
+![Bakery](/img/Bakery2.png)
+![Bakery](/img/Bakery3.png)
+![Bakery](/img/Bakery4.png)
 
 ## Technologies
 
