@@ -21,6 +21,7 @@ I wanted to create an E-commerce site for a Mom 'N Pop business to showcase my u
 
 - Html/CSS/Javascript
 - Mapbox from https://www.mapbox.com/
+- Deployed on https://www.netlify.com/
 
 ## Functionality
 
